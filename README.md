@@ -1,4 +1,9 @@
 # EADC Framework 1.0
+![HTML5](https://img.shields.io/badge/HTML5-Ready-orange?logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-Styled-blue?logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-Interactive-yellow?logo=javascript)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Online-success?logo=github)
+![Academic Project](https://img.shields.io/badge/Project-Academic-blueviolet)
 
 ![Banner](banner.png)
 
@@ -61,7 +66,17 @@ O framework é composto pelos seguintes pilares:
 - Interface web responsiva
 - Documentação técnica
 - Demonstração de conceitos de Defesa Cibernética
+- 
+## 📁 Estrutura do Projeto
 
+```text
+EADC/
+├── index.html
+├── style.css
+├── script.js
+├── banner.png
+└── README.md
+```
 ---
 
 ## Demonstração
