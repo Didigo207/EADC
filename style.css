@@ -220,3 +220,28 @@ transform:scale(1.03);
     margin:10px 0;
     font-size:17px;
 }
+/* ===== Menu ===== */
+
+.navbar{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:#111827;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:18px;
+    padding:18px;
+    border-bottom:2px solid #58a6ff;
+}
+
+.navbar a{
+    color:#58a6ff;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.navbar a:hover{
+    color:white;
+}
