@@ -1,267 +1,206 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EADC - Enterprise Architecture for Cyber Defense</title>
 
-<header class="hero">
+    <link rel="stylesheet" href="style.css">
 
-<img src="assets/banner.png" alt="Banner EADC" class="banner">
-
-<h1>EADC</h1>
-
-<p>Enterprise Architecture for Cyber Defense</p>
-
-</header>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,Helvetica,sans-serif;
-}
-
-body{
-background:#0d1117;
-color:#ffffff;
-line-height:1.6;
-}
-
-header{
-background:linear-gradient(135deg,#0b3d91,#00b4d8);
-padding:80px 20px;
-text-align:center;
-}
-
-header h1{
-font-size:55px;
-margin-bottom:15px;
-}
-
-header p{
-font-size:22px;
-}
-
-nav{
-background:#161b22;
-padding:15px;
-text-align:center;
-position:sticky;
-top:0;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin:15px;
-font-weight:bold;
-}
-
-nav a:hover{
-color:#58a6ff;
-}
-
-.container{
-max-width:1200px;
-margin:auto;
-padding:40px 20px;
-}
-
-.card{
-background:#161b22;
-padding:30px;
-margin-bottom:25px;
-border-radius:12px;
-box-shadow:0 0 10px rgba(0,0,0,.4);
-}
-
-h2{
-color:#58a6ff;
-margin-bottom:20px;
-}
-
-ul{
-padding-left:20px;
-}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
-
-.tech{
-background:#21262d;
-padding:20px;
-border-radius:10px;
-text-align:center;
-}
-
-.button{
-
-display:inline-block;
-margin-top:20px;
-padding:15px 30px;
-background:#238636;
-color:white;
-text-decoration:none;
-border-radius:8px;
-font-weight:bold;
-}
-
-.button:hover{
-background:#2ea043;
-}
-
-footer{
-background:#161b22;
-padding:30px;
-text-align:center;
-margin-top:40px;
-}
-
-</style>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<script src="script.js"></script>
-<header>
 
-<h1>EADC</h1>
+<header class="hero">
 
-<p>Enterprise Architecture for Cyber Defense</p>
+    <img src="assets/banner.png" alt="Banner EADC" class="banner">
 
-<a class="button" href="README.md">Ver Documentação</a>
+    <div class="hero-content">
+
+        <h1>EADC</h1>
+
+        <h2>Enterprise Architecture for Cyber Defense</h2>
+
+        <p>
+            Arquitetura Corporativa voltada para Defesa Cibernética,
+            integrando pessoas, processos, tecnologias e governança.
+        </p>
+
+        <div class="buttons">
+
+            <a href="#projeto" class="btn">Sobre o Projeto</a>
+
+            <a href="README.md" class="btn btn-secondary">Documentação</a>
+
+        </div>
+
+    </div>
 
 </header>
 
 <nav>
 
-<a href="#sobre">Sobre</a>
+    <a href="#projeto">Projeto</a>
 
-<a href="#arquitetura">Arquitetura</a>
+    <a href="#arquitetura">Arquitetura</a>
 
-<a href="#tecnologias">Tecnologias</a>
+    <a href="#tecnologias">Tecnologias</a>
 
-<a href="#autor">Autor</a>
+    <a href="#galeria">Galeria</a>
+
+    <a href="#autor">Autor</a>
 
 </nav>
 
-<div class="container">
+<section id="projeto" class="container">
 
-<section id="sobre" class="card">
+    <h2>Sobre o Projeto</h2>
 
-<h2>Sobre o Projeto</h2>
+    <div class="card">
 
-<p>
+        <p>
 
-O EADC é um projeto acadêmico desenvolvido para apresentar uma arquitetura corporativa de Defesa Cibernética utilizando boas práticas de segurança da informação, segmentação de redes, monitoramento contínuo e arquitetura em camadas.
+O EADC (Enterprise Architecture for Cyber Defense) é um projeto acadêmico desenvolvido para demonstrar uma arquitetura corporativa moderna para proteção de ambientes organizacionais.
 
-</p>
+A solução reúne conceitos de Arquitetura Empresarial, Defesa Cibernética, Segurança da Informação, Monitoramento Contínuo e Governança de TI.
+
+        </p>
+
+    </div>
+
+</section>
+<section id="arquitetura" class="container">
+
+    <h2>Arquitetura</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>🛡️ Segurança</h3>
+            <p>Firewall, IDS/IPS, SIEM, SOC e monitoramento contínuo.</p>
+        </div>
+
+        <div class="card">
+            <h3>🏛️ Arquitetura</h3>
+            <p>Modelo corporativo em camadas para alta disponibilidade.</p>
+        </div>
+
+        <div class="card">
+            <h3>🌐 Rede</h3>
+            <p>Segmentação, VLANs e arquitetura Zero Trust.</p>
+        </div>
+
+        <div class="card">
+            <h3>💾 Dados</h3>
+            <p>Proteção, criptografia, backup e recuperação.</p>
+        </div>
+
+    </div>
 
 </section>
 
-<section id="arquitetura" class="card">
+<section id="tecnologias" class="container">
 
-<h2>Arquitetura</h2>
+    <h2>Tecnologias Utilizadas</h2>
 
-<div class="grid">
+    <div class="grid">
 
-<div class="tech">
-<h3>Usuários</h3>
-<p>Acesso Seguro</p>
-</div>
+        <div class="card">HTML5</div>
+        <div class="card">CSS3</div>
+        <div class="card">JavaScript</div>
+        <div class="card">GitHub Pages</div>
+        <div class="card">Figma</div>
+        <div class="card">Draw.io</div>
+        <div class="card">OWASP</div>
+        <div class="card">NIST</div>
+        <div class="card">ISO 27001</div>
+        <div class="card">Zero Trust</div>
 
-<div class="tech">
-<h3>Aplicação</h3>
-<p>Serviços Web</p>
-</div>
-
-<div class="tech">
-<h3>Firewall</h3>
-<p>Proteção Perimetral</p>
-</div>
-
-<div class="tech">
-<h3>Banco de Dados</h3>
-<p>Dados Protegidos</p>
-</div>
-
-<div class="tech">
-<h3>SIEM</h3>
-<p>Monitoramento</p>
-</div>
-
-<div class="tech">
-<h3>SOC</h3>
-<p>Resposta a Incidentes</p>
-</div>
-
-</div>
+    </div>
 
 </section>
 
-<section id="tecnologias" class="card">
+<section id="galeria" class="container">
 
-<h2>Tecnologias Utilizadas</h2>
+    <h2>Galeria do Projeto</h2>
 
-<ul>
+    <div class="grid">
 
-<li>HTML5</li>
+        <div class="card">
+            <img src="assets/banner.png" class="gallery-image" alt="Banner do projeto">
+            <p>Banner Oficial do EADC</p>
+        </div>
 
-<li>CSS3</li>
+        <div class="card">
+            <p>Em breve serão adicionados os diagramas da arquitetura, rede e Zero Trust.</p>
+        </div>
 
-<li>GitHub Pages</li>
+    </div>
 
-<li>Draw.io</li>
+</section>
+<section id="autor" class="container">
 
-<li>Figma</li>
+    <h2>Sobre o Autor</h2>
 
-<li>Arquitetura Corporativa</li>
+    <div class="card">
 
-<li>Cyber Security</li>
+        <h3>Heverton Diego Paiva de Oliveira</h3>
 
-<li>Zero Trust</li>
+        <p>
+            Graduado em Análise e Desenvolvimento de Sistemas.
+        </p>
 
-</ul>
+        <p>
+            Este projeto foi desenvolvido para demonstrar conhecimentos em
+            Arquitetura Corporativa, Defesa Cibernética e Segurança da Informação.
+        </p>
+
+    </div>
 
 </section>
 
-<section id="autor" class="card">
+<section id="contato" class="container">
 
-<h2>Sobre o Autor</h2>
+    <h2>Contato</h2>
 
-<p>
+    <div class="card">
 
-<b>Heverton Diego Paiva de Oliveira</b>
+        <p>
+            GitHub:
+            <a href="https://github.com/Didigo207" target="_blank">
+                github.com/Didigo207
+            </a>
+        </p>
 
-</p>
+        <p>
+            LinkedIn:
+            <a href="#" target="_blank">
+                Adicione o link do seu LinkedIn
+            </a>
+        </p>
 
-<p>
-
-Graduado em Análise e Desenvolvimento de Sistemas.
-
-</p>
-
-<p>
-
-Projeto desenvolvido para fins acadêmicos e demonstração de competências em Arquitetura Corporativa e Defesa Cibernética.
-
-</p>
+    </div>
 
 </section>
-
-</div>
 
 <footer>
 
-<p>© 2026 Heverton Diego Paiva de Oliveira</p>
+    <h3>EADC</h3>
 
-<p>EADC - Enterprise Architecture for Cyber Defense</p>
+    <p>
+        Enterprise Architecture for Cyber Defense
+    </p>
+
+    <p>
+        © 2026 Heverton Diego Paiva de Oliveira
+    </p>
 
 </footer>
 
-</body>
+<script src="script.js"></script>
 
+</body>
 </html>
