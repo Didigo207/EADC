@@ -201,3 +201,22 @@ transform:scale(1.03);
     max-width:850px;
     margin:20px auto;
 }
+.footer{
+    margin-top:60px;
+    background:#111827;
+    padding:40px 20px;
+    text-align:center;
+    border-top:2px solid #58a6ff;
+}
+
+.footer h3{
+    color:#58a6ff;
+    font-size:28px;
+    margin-bottom:20px;
+}
+
+.footer p{
+    color:#d0d7de;
+    margin:10px 0;
+    font-size:17px;
+}
